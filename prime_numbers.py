@@ -3,10 +3,12 @@ from PyQt6.QtWidgets import QApplication, QTextEdit, QPushButton, QVBoxLayout, Q
 def fromf():
     global limit1
     limit1 = input_prompt.text()
+    input_prompt.clear()
 
 def tof():
     global limit2
     limit2 = input_prompt.text()
+    input_prompt.clear()
 
 def findf():
     global total
